@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="171d03e6-c58e-4705-9c92-17e51b9362e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Bike/AirCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Bike/AirConditionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bike/CombinedTasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bike/DescendingOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bike/LeapYear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bike/Mortgage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bike/Practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bike/StringBeautifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bike/TemperatureConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Bike/CombinedTasksTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Bike/DescendingOrderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
@@ -39,48 +47,59 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.AirConditionTest.executor": "Run",
-    "JUnit.AirConditionTest.testDecreaseTemperature.executor": "Run",
-    "JUnit.AirConditionTest.testDecreaseTemperatureBelowMin.executor": "Run",
-    "JUnit.AirConditionTest.testIncreaseTemperature.executor": "Run",
-    "JUnit.AirConditionTest.testIncreaseTemperatureBeyondMax.executor": "Run",
-    "JUnit.AirConditionTest.testTurnOffAc.executor": "Run",
-    "JUnit.AirConditionTest.testTurnOnAc.executor": "Run",
-    "JUnit.AutomaticBikeTest.executor": "Run",
-    "JUnit.AutomaticBikeTest.testGearAcceleratesToFour.executor": "Run",
-    "JUnit.AutomaticBikeTest.testGearAcceleratesToOne.executor": "Run",
-    "JUnit.AutomaticBikeTest.testGearDeceleratesToOne.executor": "Run",
-    "JUnit.AutomaticBikeTest.testTurnOffBike.executor": "Run",
-    "JUnit.AutomaticBikeTest.testTurnOnBike (1).executor": "Run",
-    "JUnit.AutomaticBikeTest.testTurnOnBike.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/DELL",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/DELL/IdeaProjects/javaSnacks/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CombinedTasks.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DescendingOrder.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DescendingOrderTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeapYear.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Mortgage.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Practice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringBeautifier.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TemperatureConverter.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.AirConditionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AirConditionTest.testDecreaseTemperature.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AirConditionTest.testDecreaseTemperatureBelowMin.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AirConditionTest.testIncreaseTemperature.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AirConditionTest.testIncreaseTemperatureBeyondMax.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AirConditionTest.testTurnOffAc.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AirConditionTest.testTurnOnAc.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AutomaticBikeTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AutomaticBikeTest.testGearAcceleratesToFour.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AutomaticBikeTest.testGearAcceleratesToOne.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AutomaticBikeTest.testGearDeceleratesToOne.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AutomaticBikeTest.testTurnOffBike.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AutomaticBikeTest.testTurnOnBike (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AutomaticBikeTest.testTurnOnBike.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CombinedTasksTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CombinedTasksTest.testTwiceTheSum.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DELL&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/DELL/IdeaProjects/javaSnacks/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="bike" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AirConditionTest">
-    <configuration name="AirConditionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Mortgage">
+    <configuration name="LeapYear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bike.LeapYear" />
       <module name="javaSnacks" />
       <extension name="coverage">
         <pattern>
@@ -88,14 +107,12 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Bike" />
-      <option name="MAIN_CLASS_NAME" value="Bike.AirConditionTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AirConditionTest.testDecreaseTemperature" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Mortgage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bike.Mortgage" />
       <module name="javaSnacks" />
       <extension name="coverage">
         <pattern>
@@ -103,15 +120,12 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Bike" />
-      <option name="MAIN_CLASS_NAME" value="Bike.AirConditionTest" />
-      <option name="METHOD_NAME" value="testDecreaseTemperature" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AirConditionTest.testDecreaseTemperatureBelowMin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bike.Practice" />
       <module name="javaSnacks" />
       <extension name="coverage">
         <pattern>
@@ -119,15 +133,12 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Bike" />
-      <option name="MAIN_CLASS_NAME" value="Bike.AirConditionTest" />
-      <option name="METHOD_NAME" value="testDecreaseTemperatureBelowMin" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AirConditionTest.testIncreaseTemperature" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringBeautifier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bike.StringBeautifier" />
       <module name="javaSnacks" />
       <extension name="coverage">
         <pattern>
@@ -135,15 +146,12 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Bike" />
-      <option name="MAIN_CLASS_NAME" value="Bike.AirConditionTest" />
-      <option name="METHOD_NAME" value="testIncreaseTemperature" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AirConditionTest.testIncreaseTemperatureBeyondMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TemperatureConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bike.TemperatureConverter" />
       <module name="javaSnacks" />
       <extension name="coverage">
         <pattern>
@@ -151,21 +159,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Bike" />
-      <option name="MAIN_CLASS_NAME" value="Bike.AirConditionTest" />
-      <option name="METHOD_NAME" value="testIncreaseTemperatureBeyondMax" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AirConditionTest" />
-        <item itemvalue="JUnit.AirConditionTest.testDecreaseTemperatureBelowMin" />
-        <item itemvalue="JUnit.AirConditionTest.testIncreaseTemperatureBeyondMax" />
-        <item itemvalue="JUnit.AirConditionTest.testDecreaseTemperature" />
-        <item itemvalue="JUnit.AirConditionTest.testIncreaseTemperature" />
+        <item itemvalue="Application.Mortgage" />
+        <item itemvalue="Application.Practice" />
+        <item itemvalue="Application.TemperatureConverter" />
+        <item itemvalue="Application.StringBeautifier" />
+        <item itemvalue="Application.LeapYear" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +199,26 @@
       <workItem from="1724499549646" duration="1835000" />
       <workItem from="1724501442314" duration="12477000" />
       <workItem from="1724545893497" duration="8056000" />
-      <workItem from="1724592413339" duration="2779000" />
+      <workItem from="1724592413339" duration="10834000" />
+      <workItem from="1724675858361" duration="1855000" />
+      <workItem from="1724836195207" duration="5147000" />
+      <workItem from="1724874979625" duration="970000" />
+      <workItem from="1725101241336" duration="63000" />
+      <workItem from="1725359950048" duration="4097000" />
+      <workItem from="1725850313431" duration="6516000" />
+      <workItem from="1726026215489" duration="4070000" />
+      <workItem from="1726106042369" duration="5956000" />
+      <workItem from="1726148454158" duration="35000" />
+      <workItem from="1726158247009" duration="20000" />
+      <workItem from="1726239260542" duration="803000" />
+      <workItem from="1726329958757" duration="15000" />
+      <workItem from="1726330158939" duration="27000" />
+      <workItem from="1726623039306" duration="63000" />
+      <workItem from="1726623162012" duration="13000" />
+      <workItem from="1726623317448" duration="390000" />
+      <workItem from="1726623755905" duration="18000" />
+      <workItem from="1726623819364" duration="21000" />
+      <workItem from="1726623997219" duration="86000" />
     </task>
     <servers />
   </component>
