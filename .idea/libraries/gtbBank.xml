@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="gtbBank">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/gateOne/gtbBank/junit-jupiter-api-5.10.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gateOne/gtbBank/junit-platform-console-standalone-1.10.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
