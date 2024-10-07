@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="171d03e6-c58e-4705-9c92-17e51b9362e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Bike/CombinedTasks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bike/DescendingOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bike/LeapYear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bike/Mortgage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bike/Practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bike/StringBeautifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bike/TemperatureConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Bike/CombinedTasksTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Bike/DescendingOrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bike/GeoPoliticalZone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bike/ThreeByThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Bike/GeoPoliticalZoneTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Bike/ThreeByThreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,6 +70,12 @@
     &quot;JUnit.AutomaticBikeTest.testTurnOnBike.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.CombinedTasksTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.CombinedTasksTest.testTwiceTheSum.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GeoPoliticalZoneTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GeoPoliticalZoneTest.testInvalidZoneInput.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GeoPoliticalZoneTest.testValidZoneInput.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ThreeByThree.testThatZeroExists.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.ThreeByThreeTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ThreeByThreeTest.testThatZeroExists.executor&quot;: &quot;Run&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
     &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
     &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
@@ -97,9 +98,8 @@
       <recent name="bike" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Mortgage">
-    <configuration name="LeapYear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bike.LeapYear" />
+  <component name="RunManager" selected="JUnit.ThreeByThreeTest">
+    <configuration name="GeoPoliticalZoneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaSnacks" />
       <extension name="coverage">
         <pattern>
@@ -107,12 +107,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Bike" />
+      <option name="MAIN_CLASS_NAME" value="Bike.GeoPoliticalZoneTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mortgage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bike.Mortgage" />
+    <configuration name="GeoPoliticalZoneTest.testValidZoneInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaSnacks" />
       <extension name="coverage">
         <pattern>
@@ -120,12 +122,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Bike" />
+      <option name="MAIN_CLASS_NAME" value="Bike.GeoPoliticalZoneTest" />
+      <option name="METHOD_NAME" value="testValidZoneInput" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bike.Practice" />
+    <configuration name="ThreeByThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaSnacks" />
       <extension name="coverage">
         <pattern>
@@ -133,12 +138,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Bike" />
+      <option name="MAIN_CLASS_NAME" value="Bike.ThreeByThreeTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBeautifier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bike.StringBeautifier" />
+    <configuration name="ThreeByThreeTest.testThatZeroExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaSnacks" />
       <extension name="coverage">
         <pattern>
@@ -146,12 +153,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Bike" />
+      <option name="MAIN_CLASS_NAME" value="Bike.ThreeByThreeTest" />
+      <option name="METHOD_NAME" value="testThatZeroExists" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TemperatureConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bike.TemperatureConverter" />
+    <configuration name="ThreeByThree.testThatZeroExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaSnacks" />
       <extension name="coverage">
         <pattern>
@@ -159,17 +169,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Bike" />
+      <option name="MAIN_CLASS_NAME" value="Bike.ThreeByThree" />
+      <option name="METHOD_NAME" value="testThatZeroExists" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Mortgage" />
-        <item itemvalue="Application.Practice" />
-        <item itemvalue="Application.TemperatureConverter" />
-        <item itemvalue="Application.StringBeautifier" />
-        <item itemvalue="Application.LeapYear" />
+        <item itemvalue="JUnit.ThreeByThreeTest" />
+        <item itemvalue="JUnit.ThreeByThreeTest.testThatZeroExists" />
+        <item itemvalue="JUnit.ThreeByThree.testThatZeroExists" />
+        <item itemvalue="JUnit.GeoPoliticalZoneTest" />
+        <item itemvalue="JUnit.GeoPoliticalZoneTest.testValidZoneInput" />
       </list>
     </recent_temporary>
   </component>
@@ -219,6 +233,13 @@
       <workItem from="1726623755905" duration="18000" />
       <workItem from="1726623819364" duration="21000" />
       <workItem from="1726623997219" duration="86000" />
+      <workItem from="1727149053853" duration="60000" />
+      <workItem from="1727231538849" duration="3661000" />
+      <workItem from="1727252734105" duration="69000" />
+      <workItem from="1727350347122" duration="2193000" />
+      <workItem from="1727352576338" duration="6615000" />
+      <workItem from="1727950707702" duration="67000" />
+      <workItem from="1727951008820" duration="1567000" />
     </task>
     <servers />
   </component>
